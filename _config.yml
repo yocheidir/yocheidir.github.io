@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "Heidir Royyan Firdaus"
-  avatar : "/assets/images/heidir.jpg"
+  avatar : "/assets/images/heidir.png"
   bio    : "Bachelor of Economics from Airlangga University"
   links:    
     - label: "CV"
