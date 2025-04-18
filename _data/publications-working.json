@@ -1,0 +1,30 @@
+[
+
+  {
+    "title": "Do Non-Manufacturing Export Negatively Impact Manufacturing Export? Study Case From 1967 to 2023 in Indonesia",
+	"coauthors": "Heidir Royyan Firdaus",
+	"other": [
+	  "[Manuscript](assets/research/paper_creco.pdf)",
+	],	
+	"abstract": "The increase in commodity exports driven by rising commodity price has the potential to result in dutch desease, current account deficit, and decline in manufacturing export performance. This study aims to examine whether non-manufacturing export affect manufacturing export during the period of 1967-2023 using OLS and 2SLS models to overcome the problem of bias. The result is non-manufacturing exports and manufacturing exports are corre- lated because both experienced growth, but no causal relationship between them. Therefore, instead of downplaying the role of nat- ural resources, Indonesia can use the increase in commodity ex- ports when commodity price are rising by developing productive sectors. The government can do currency depreciation and cre- ating a sovereign wealth fund, as well as taking advantage of ris- ing commodity price by implementing strategies such as improving infrastructure to increase Indonesia’s attractiveness in export-oriented FDI and increasing integration global value chain, especially the labor-intensive manufacturing sector."
+  },
+
+  {
+    "title": "Infant Poverty in Indonesia: Multidimensional Approach",
+	"coauthors": "Heidir Royyan Firdaus",
+	"other": [
+	  "[Manuscript](assets/research/-)",
+	],	
+	"abstract": "BPS sets a monthly per capita poverty line across all age groups. However, this measure doesn’t fully address infant poverty’s complexity. Therefore, this study aims to calculate the level of infant multidimensional poverty Index using the Alkire-Foster method with 11 indicators divided into four dimensions: health, standard of living, registration, and nutrition. Furthermore, 2SLS was used to analyze the influence of the gender of the head of household (HOH) (women=1), age of HOH, HOH’s education, marital status of HOH, percentage of productive age members in household, household’s size, and household location (urban=1). This study used Demographic Health Survey (DHS) data in 2017 and 2012. This research is expected to be a reference in making government policies in reducing infant poverty. HH sex (women=1) and HH age is expected to have a positive relationship with infant poverty, while HH education and location (urban=1) are negative. Government should have Implemented targeted support programs for households headed by women and older individuals like job training, employment assistance, and social welfare programs. Additionally, the government should have used a multidimensional approach instead of a monetary approach.."
+  },
+
+  {
+    "title": "Measuring Green Economics Index: Case Study in Indonesia",
+	"coauthors": "Muhammad Dzaky Adzhany, Heidir Royyan Firdaus",
+	"other": [
+	  "[Manuscript](assets/research/-)",
+	],	
+	"abstract": "Environmental sustainability has become a critical issue, particularly for countries with vast forest coverage like Indonesia. The nation faces complex and multidimensional challenges that threaten its environmental resilience and accelerate climate change, thereby will not ensure Indonesia's long-term sustainable growth (RPJPN) or its 2045 development goals. This study aims to evaluate the Green Economy Index by adapting indicators from various inter-provincial studies to analyze Green Economy progress across regions in Indonesia from 2019 to 2022. Research on regional-level Green Economy development in Indonesia remains limited, making this study a valuable contribution. The findings reveal disparities in Green Economy achievements among provinces. Therefore, effective policy formulation must consider regional contexts and integrate relevant Green Economy indicators."
+  },
+
+]
