@@ -6,7 +6,7 @@ layout: splash
 
 <div class="card">
 
-  {% assign datasets = "publications-working, publications, publications-chapters, publications-other" | split: ", " %}
+  {% assign datasets = "publications-working" | split: ", " %}
   
   {% for ds in datasets %}
   
@@ -64,47 +64,7 @@ layout: splash
   
   {% endfor %}
   
-  <!-- WORKS IN PROGRESS -->
-  <div class="jumbotron text-center">
-    <h2>Works in progress</h2>
-  </div>
-  <div class="card-body">
-   
-   "Peer Effects in the Workplace: Evidence from the Illinois Workplace Wellness Study" (with Alden Cheng, Damon Jones and David Molitor)<br><br>   
 
-   "Does Medicare Improve Quality of Life?"<br>
-
-  </div>
-  
-  
-  <!-- EXTERNAL GRANTS -->
-  <div class="jumbotron text-center">
-    <h2>External grants</h2>
-  </div>
-  
-  {% for item in site.data.publications-grants %}
-    <div class="card-block">
-	<b>{{ item.title }}</b> <br>
-    {{ item.role }}, with {{ item.coauthors }} <br>
-	
-	{% if item.details != blank %}
-      {{ item.details }} <br> 
-      {{ item.amount }} <br>
-      {% if forloop.last == false %} <br> {% endif %}
-    {% else %}
-      {{ item.amount }} <br>
-      <table style="padding:0px; border-collapse: collapse">
-      {% for g in item.other %}
-        <tr style="border-style:hidden">
-        <td style="text-indent:25px">{{ g.entity }}, </td>
-        {% if g.number != blank %} <td align="left">{{ g.number }},</td>{% endif %}
-        <td align="left">{{ g.date }},</td>
-        <td align="left">{{ g.amount }}</td>
-        </tr>
-      {% endfor %}
-      </table>		
-	{% endif %}
-    </div>
   {% endfor %}
   
 </div>
