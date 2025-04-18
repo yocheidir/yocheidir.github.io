@@ -4,7 +4,6 @@ permalink: assets/research/
 layout: splash
 ---
 
-{: style="display: flex; justify-content: space-evenly"}
 <div class="card">
 
   {% assign datasets = "publications-working, publications, publications-chapters, publications-other" | split: ", " %}
