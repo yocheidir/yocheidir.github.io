@@ -4,6 +4,6 @@ main:
   - title: "CV"
     url: assets/cv/cv_new.pdf  
   - title: "Research"
-    url: assets/research/
+    url: /research/
   - title: "Other"
-    url: assets/other/
+    url: /other/
