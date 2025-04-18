@@ -8,7 +8,7 @@ layout: splash
 
 <div class="card">
 
-  {% assign datasets = "publications-working, publications, publications-chapters, publications-other" | split: ", " %}
+  {% assign datasets = "publications-working" | split: ", " %}
   
   {% for ds in datasets %}
   
