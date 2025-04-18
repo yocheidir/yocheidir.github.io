@@ -1,6 +1,6 @@
 ---
 title: Research
-permalink: assets/research/
+permalink: /research/
 layout: splash
 ---
 
