@@ -11,9 +11,12 @@ layout: splash
   {% for ds in datasets %}
   
     <div class="jumbotron text-center">
-      <h2>
-	  {% if ds == 'publications-working' %} Working papers {% endif %}
-	  </h2>
+     <h2>
+  	{% if ds == 'publications' %} Publications {% endif %}
+  	{% if ds == 'publications-working' %} Working papers {% endif %}
+  	{% if ds == 'publications-chapters' %} Book chapters {% endif %}
+  	{% if ds == 'publications-other' %} Other publications{% endif %}
+  	</h2>
     </div>
     
     {% for item in site.data[ds] %}
