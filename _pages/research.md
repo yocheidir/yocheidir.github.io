@@ -4,6 +4,8 @@ permalink: assets/research/
 layout: splash
 ---
 
+
+
 <div class="card">
 
   {% assign datasets = "publications-working, publications, publications-chapters, publications-other" | split: ", " %}
@@ -11,12 +13,12 @@ layout: splash
   {% for ds in datasets %}
   
     <div class="jumbotron text-center">
-     <h2>
-  	{% if ds == 'publications' %} Publications {% endif %}
-  	{% if ds == 'publications-working' %} Working papers {% endif %}
-  	{% if ds == 'publications-chapters' %} Book chapters {% endif %}
-  	{% if ds == 'publications-other' %} Other publications{% endif %}
-  	</h2>
+      <h2>
+      {% if ds == 'publications' %} Publications {% endif %}
+	  {% if ds == 'publications-working' %} Working papers {% endif %}
+	  {% if ds == 'publications-chapters' %} Book chapters {% endif %}
+	  {% if ds == 'publications-other' %} Other publications{% endif %}
+	  </h2>
     </div>
     
     {% for item in site.data[ds] %}
@@ -64,7 +66,30 @@ layout: splash
   
   {% endfor %}
   
-
+  
+  {% for item in site.data.publications-grants %}
+    <div class="card-block">
+	<b>{{ item.title }}</b> <br>
+    {{ item.role }}, with {{ item.coauthors }} <br>
+	
+	{% if item.details != blank %}
+      {{ item.details }} <br> 
+      {{ item.amount }} <br>
+      {% if forloop.last == false %} <br> {% endif %}
+    {% else %}
+      {{ item.amount }} <br>
+      <table style="padding:0px; border-collapse: collapse">
+      {% for g in item.other %}
+        <tr style="border-style:hidden">
+        <td style="text-indent:25px">{{ g.entity }}, </td>
+        {% if g.number != blank %} <td align="left">{{ g.number }},</td>{% endif %}
+        <td align="left">{{ g.date }},</td>
+        <td align="left">{{ g.amount }}</td>
+        </tr>
+      {% endfor %}
+      </table>		
+	{% endif %}
+    </div>
   {% endfor %}
   
 </div>
