@@ -1,13 +1,10 @@
 ---
 title: Research
-permalink: /research/
+permalink: assets/research/
 layout: splash
 ---
 
 {: style="display: flex; justify-content: space-evenly"}
-[Research statement](/research/reif.research.2020.05.pdf)
-[Google Scholar](https://scholar.google.com/citations?user=Tpe9XEcAAAAJ)
-
 <div class="card">
 
   {% assign datasets = "publications-working, publications, publications-chapters, publications-other" | split: ", " %}
