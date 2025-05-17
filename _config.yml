@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "Heidir Royyan Firdaus"
-  avatar : "/assets/images/heidir.png"
+  avatar : "/assets/images/heidir1.png"
   bio    : "Bachelor of Economics from Airlangga University"
   links:    
     - label: "CV"
@@ -78,6 +78,9 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/yocheidir"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/share/1CRpw1yC9X/"
 
 footer:
   links:
